@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ตัวอย่าง Table</title>
+  <style>
+    table {
+      border-collapse: collapse; /* รวมเส้นตารางให้เรียบ */
+      width: 60%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 8px 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #f4a261;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9; /* แถวคู่สีอ่อน */
+    }
+    tr:hover {
+      background-color: #ffe8d6; /* Hover effect */
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">ตัวอย่างตาราง HTML</h2>
+  
+  <table>
+    <tr>
+      <th>ลำดับ</th>
+      <th>ชื่อ</th>
+      <th>อายุ</th>
+      <th>อาชีพ</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>กานต์</td>
+      <td>25</td>
+      <td>นักพัฒนาเว็บ</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>พิม</td>
+      <td>22</td>
+      <td>นักออกแบบ</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>โอม</td>
+      <td>28</td>
+      <td>วิศวกร</td>
+    </tr>
+  </table>
+</body>
+</html>
